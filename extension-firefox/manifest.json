@@ -5,7 +5,7 @@
   "manifest_version" : 2,
   "content_scripts": [
     {
-      "matches": ["http://*/*", "https://*/*"],
+      "matches": ["http://codeforces.com/*", "https://codeforces.com/*"],
       "js": ["js/jquery.min.js", "js/background.js"]
     }
   ],
